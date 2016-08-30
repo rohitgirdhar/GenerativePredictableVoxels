@@ -50,3 +50,4 @@ out = predModel_3dnw(net, in_)
 
 with h5py.File(outfpath, 'w') as f:
   f.create_dataset('reconst', data=out, compression='gzip', compression_opts=9)
+transformAndVisVoxels.saveVisSnapshotMayavi(out, outfpath + '.jpg')

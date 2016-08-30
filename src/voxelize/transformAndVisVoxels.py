@@ -39,6 +39,14 @@ def visualizeMayavi(data_sparse, fig, weights=None):
   mayavi.mlab.view(-90,180)
 
 
+# gen this once # TODO: Find better way to do this
+VOXEL_DIM=20
+_coords = []
+for i in range(VOXEL_DIM):
+  for j in range(VOXEL_DIM):
+    for k in range(VOXEL_DIM):
+      _coords.append(np.array([i,j,k]))
+_coords = np.array(_coords)
 def visualizeDenseMayavi(data, fig=None):
   import mayavi.mlab
   if not fig:

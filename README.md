@@ -6,7 +6,7 @@ In Proc. of European Conference on Computer Vision (ECCV), 2016
 
 ## Pre-requisites
 1. Caffe (trained and tested with [97f4536](https://github.com/BVLC/caffe/tree/97f4536d51c5ed464025179ea36798ebee8bf033), though should work with the latest version). Clone and install in `libs` dir.
-2. Python libs such as `h5py`, `matplotlib`.
+2. Python libs `h5py`, `matplotlib`, `mayavi`.
 
 ## Download pre-trained models
 Download all the models from [dropbox](https://www.dropbox.com/sh/ic5nb3e3gd4y99x/AABihSLOgeXxtZ81rbnHeq10a) to `models/` dir.
@@ -14,7 +14,7 @@ Download all the models from [dropbox](https://www.dropbox.com/sh/ic5nb3e3gd4y99
 ## Testing using the precomputed networks
 
 ```bash
-$ python reconst.py
+$ python src/testing/reconst.py  # stores the prediction in output/ folder
 ```
 
 Dataset splits, training code to come soon.
