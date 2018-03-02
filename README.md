@@ -18,7 +18,7 @@ In Proc. of European Conference on Computer Vision (ECCV), 2016
 2. Python libs `h5py`, `matplotlib`, `mayavi`.
 
 ## Download pre-trained models
-Download all the models from [dropbox](https://www.dropbox.com/sh/ic5nb3e3gd4y99x/AABihSLOgeXxtZ81rbnHeq10a) to `models/` dir.
+Download all the models from [here](https://cmu.box.com/s/0czjnjpzy03nci1dressrc02njwexuqx) to `models/` dir.
 
 ## Testing using the precomputed networks
 
