@@ -26,5 +26,5 @@ Download all the models from [here](https://cmu.box.com/s/0czjnjpzy03nci1dressrc
 $ python src/testing/reconst.py  # stores the prediction in output/ folder
 ```
 
-Dataset splits, training code to come soon.
-
+## Data
+The data was stored in HDF5 format for training. The total size of this set is quite large (around 0.5TB), which is hard to release, so I am sharing a subset of the data [here](https://cmu.box.com/s/wb9lw48timjzz8wkj832ggw9yeccf3fl).
